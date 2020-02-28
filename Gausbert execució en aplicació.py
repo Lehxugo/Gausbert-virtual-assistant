@@ -1063,7 +1063,7 @@ class MainWindow(QWidget):
 								smtp.ehlo()
 
 								#Inici de sessió (correu electrònic, contrasenya).
-								smtp.login("gausbertassistentvirtual@gmail.com", "4!6G2L8m<5>2")
+								smtp.login("gausbertassistentvirtual@gmail.com", "Contrasenya")
 
 								#Unió dels continguts de les variables per formar l'e-mail sencer.
 								Email = f'Subject: {Assumpte}\n\n{Cos}'.encode('utf-8')
